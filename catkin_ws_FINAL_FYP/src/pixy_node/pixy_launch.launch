@@ -1,0 +1,7 @@
+<launch>
+  <env name="CWD" value="$(env PWD)" />
+  <node name= "pixy_cam" pkg= "pixy_node" type="pixy_node" cwd="node" output="screen"/>
+  <!--
+    <node name= "pixy_cam" pkg= "pixy_node" type="pixy_node"/>
+  -->
+</launch>

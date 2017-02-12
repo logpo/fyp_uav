@@ -1,0 +1,6 @@
+<launch> 
+    <node pkg="pixy_node" type="pixy_node" name="pixy_node"> 
+    </node>
+    <node pkg="imuread_node" type="imuread_node" name="imuread_node"> 
+    </node> 
+</launch>

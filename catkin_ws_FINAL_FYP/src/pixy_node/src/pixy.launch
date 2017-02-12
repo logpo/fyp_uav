@@ -1,0 +1,3 @@
+<launch>
+  <node name="pixy_node" pkg="pixy_node" type="pixy_node" />
+</launch>
